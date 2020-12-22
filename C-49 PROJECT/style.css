@@ -1,0 +1,80 @@
+/*  css- Cascading Style Sheets
+It is used for separate styling for pages.
+NOTES:
+. means class selector
+* means selection of entire body/page, it is known as wild card operator. 
+
+*/
+
+/* *{
+    border:solid
+} */
+
+body{
+    background-color: lightgrey;
+    margin:1px ;
+}
+.header{
+color:peachpuff;
+background-color:deeppink;
+padding:20px;
+text-align: center;
+
+}
+.menu{
+display:flex;
+justify-content:space-evenly;
+background-color:black;
+padding:15px ;
+font-size:20px;
+font-family:sans-serif;
+font-weight:500;
+color:cornsilk;
+}
+a:link{
+    color:rgb(34, 19, 170)
+    }
+    
+    a:visited{
+    color:rgb(69, 42, 167)
+    }
+
+.grid img{
+    border: 2px solid #000001;
+    border-radius:50px ;
+}
+.grid{
+display :flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+margin: 80px; 
+}
+.origami{
+    border-radius: 2opx solid black;
+    background-color:aliceblue;
+    padding:30px ;
+    margin: 30px;
+    width:320px;
+    font-family: fantasy;
+}
+p{
+    text-align:center;
+    color:cyan;
+    background-color: rgb(8, 40, 133);
+    padding:15px;
+    }
+h3{
+justify-content: center;
+align-self: center;
+align-items: center;
+margin-left:500px ;
+}
+
+a img{
+    border-radius: 50px; 
+    border: solid 7px;
+    border-color: rgb(16, 16, 133);
+}
+a:hover img {
+   transform:scale(1.2) 
+}
